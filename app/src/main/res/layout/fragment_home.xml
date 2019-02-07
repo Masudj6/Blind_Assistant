@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/home_parentScroll">
+
+    <LinearLayout style="@style/home_subParentLinear">
+
+        <FrameLayout style="@style/home_subParentFrame">
+
+            <ImageView
+                android:id="@+id/imageView"
+                style="@style/home_ivTopBanner" />
+
+            <LinearLayout
+
+                style="@style/home_tilesParentLinear">
+
+                <LinearLayout style="@style/home_horizontalTileHolderLinearTop">
+
+                    <LinearLayout style="@style/home_tilesWrapperLinear">
+
+                        <LinearLayout style="@style/home_leftTileLinear">
+
+                            <ImageView
+                                style="@style/home_tileServiceIV"
+                                android:src="@drawable/object" />
+
+                            <TextView
+                                style="@style/home_tileServiceTV"
+                                android:fontFamily="@font/work_sans"
+                                android:text="OBJECT DETECT" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/home_tilesWrapperLinear">
+
+                        <LinearLayout style="@style/home_rightTileLinear">
+
+                            <ImageView
+                                style="@style/home_tileServiceIV"
+                                android:src="@drawable/voice" />
+
+                            <TextView
+                                style="@style/home_tileServiceTV"
+                                android:fontFamily="@font/work_sans"
+                                android:text="VOICE RECOGNIZE" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout style="@style/home_horizontalTileHolderLinear">
+
+                    <LinearLayout style="@style/home_tilesWrapperLinear">
+
+                        <LinearLayout style="@style/home_leftTileLinear">
+
+                            <ImageView
+                                style="@style/home_tileServiceIV"
+                                android:src="@drawable/location" />
+
+                            <TextView
+                                style="@style/home_tileServiceTV"
+                                android:fontFamily="@font/work_sans"
+                                android:text="SEARCH LOCATION" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/home_tilesWrapperLinear">
+
+                        <LinearLayout style="@style/home_rightTileLinear">
+
+                            <ImageView
+                                style="@style/home_tileServiceIV"
+                                android:src="@drawable/book" />
+
+                            <TextView
+                                style="@style/home_tileServiceTV"
+                                android:fontFamily="@font/work_sans"
+                                android:text="READ BOOK" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout style="@style/home_horizontalTileHolderLinear">
+
+                    <LinearLayout style="@style/home_tilesWrapperLinear">
+
+                        <LinearLayout style="@style/home_leftTileLinear">
+
+                            <ImageView
+                                style="@style/home_tileServiceIV"
+                                android:src="@drawable/contuct" />
+
+                            <TextView
+                                style="@style/home_tileServiceTV"
+                                android:fontFamily="@font/work_sans"
+                                android:text="CONTUCT" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/home_tilesWrapperLinear">
+
+                        <LinearLayout style="@style/home_rightTileLinear">
+
+                            <ImageView
+                                style="@style/home_tileServiceIV"
+                                android:src="@drawable/homeauto" />
+
+                            <TextView
+                                style="@style/home_tileServiceTV"
+                                android:fontFamily="@font/work_sans"
+                                android:text="HOME AUTOMATION" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>
+

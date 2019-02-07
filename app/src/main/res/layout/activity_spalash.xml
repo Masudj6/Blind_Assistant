@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4"
+    android:orientation="vertical"
+    android:background="#E1F5FE"
+    tools:context=".activity.SpalashActivity">
+
+    <View android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"></View>
+
+    <ImageView
+        android:paddingLeft="40dp"
+        android:id="@+id/ivlogo"
+        android:layout_width="250dp"
+        android:layout_weight="2.5"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/blindt"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:text="Access for the Blind.Our vission is sound"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_below="@+id/ivlogo"/>
+
+
+</LinearLayout>
